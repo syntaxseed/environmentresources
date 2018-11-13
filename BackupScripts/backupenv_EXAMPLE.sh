@@ -3,13 +3,21 @@
 ## SCRIPT TO BACKUP ENVIRONMENT SETTINGS
 ## Run this from within the ..../environmentresources/BackupScripts/ repo dir, via: $ sh backupenv.sh
 ## Set the backuptarget (below) so you backup to a different (private) repo.
-## (My BashAliases have one for this called 'backupenv'.)
+## (My Bash aliases have one for this called 'backupenv'.)
 ## Tip: can run this from within the VS Code terminal!
 
-backuptarget='/home/yourname/Git/EnvironmentBackup/'
+# Check if a backup target directory was passed to the script.
+# If not, use the hard-coded fallback below.
+if [ -z "$1" ]
+then
+    backuptarget='/home/yourusername/Git/EnvironmentBackup/'
+else
+    backuptarget=$1"/"
+fi
 
 backupscripts=$PWD
 
+# Run all backup scripts from this location:
 . $backupscripts/backupvscode.sh
 . $backupscripts/backupcomposer.sh
 . $backupscripts/backupnpm.sh
