@@ -7,10 +7,10 @@ Created by @SyntaxSeed (Sherri W)
 * Nice Bash command prompts.
 * Handy Bash aliases.
 * Bash Scripts to backup:
-    * Global Composer json and lock files backup.
-    * VSCode extensions list and settings/keymap files backup.
-    * PHP.ini backups.
-    * Npm global config backup.
+    * Global Composer json and lock files.
+    * VSCode extensions list, snippets and settings/keymap files.
+    * PHP.ini files.
+    * Npm global config.
     * Global Git config file.
     * Linux System settings.
 
