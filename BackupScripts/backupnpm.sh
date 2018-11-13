@@ -1,6 +1,7 @@
 ## Npm Backup.
 ## Called via main backupenv.sh script.
 
+mkdir -p $backuptarget'NpmGlobal/'
 cd $backuptarget'NpmGlobal/'
 
 # Backup global packages list to a file we can use to re-install via:

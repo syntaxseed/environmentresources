@@ -1,6 +1,7 @@
 ## VSCode Backup.
 ## Called via main backupenv.sh script.
 
+mkdir -p $backuptarget'VSCode/'
 cd $backuptarget'VSCode/'
 
 # Backup extensions list as cli commands we can run to re-install.

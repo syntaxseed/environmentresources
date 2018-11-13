@@ -24,5 +24,11 @@ alias lalup='printf "\n\e[1;33mVisit at: http://127.0.0.1:8080\e[0m\n\n" ; php a
 
 
 # ---- Editor/Environment/Tools -----
-# Run my backup environment scripts, then switch to the target backup repo so I can commit it.
-alias backupenv='cd ~/Development/Repos/Git/EnvironmentResources/BackupScripts/ ; sh backupenv.sh ; cd ~/Development/Repos/Git/EnvironmentBackup/'
+
+# Function to run my backup environment scripts, then switch to the target backup repo so I can commit it.
+#    Optional: pass in the target directory for the backups as a parameter.
+backupenv() {
+    cd /home/sherriw/Development/Repos/Git/EnvironmentResources/BackupScripts/
+    sh backupenv.sh "$1"
+    cd /home/sherriw/Development/Repos/Git/EnvironmentBackup/
+}

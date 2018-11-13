@@ -1,6 +1,7 @@
 ## System/Ubuntu Config Backup
 ## Called via main backupenv.sh script.
 
+mkdir -p $backuptarget'SystemSettingsBackup/'
 cd $backuptarget'SystemSettingsBackup/'
 
 # Backup installed apt packages list.

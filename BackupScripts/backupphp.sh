@@ -1,6 +1,7 @@
 ## PHP Local Settings and Info Backup.
 ## Called via main backupenv.sh script.
 
+mkdir -p $backuptarget'PHPLocal/'
 cd $backuptarget'PHPLocal/'
 
 # Backup list of packages currently installed which contain 'php':

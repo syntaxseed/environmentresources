@@ -1,6 +1,7 @@
 ## Global Git Backup
 ## Called via main backupenv.sh script.
 
+mkdir -p $backuptarget'GitGlobal/'
 cd $backuptarget'GitGlobal/'
 
 # Backup git global config

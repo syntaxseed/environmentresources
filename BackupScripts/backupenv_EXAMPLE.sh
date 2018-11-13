@@ -7,7 +7,8 @@
 ## Tip: can run this from within the VS Code terminal!
 
 backuptarget='/home/yourname/Git/EnvironmentBackup/'
-backupscripts='/home/yourname/Git/EnvironmentResources/BackupScripts/'
+
+backupscripts=$PWD
 
 . $backupscripts/backupvscode.sh
 . $backupscripts/backupcomposer.sh

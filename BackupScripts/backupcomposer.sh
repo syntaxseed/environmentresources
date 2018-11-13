@@ -1,6 +1,7 @@
 ## Global Composer Backup
 ## Called via main backupenv.sh script.
 
+mkdir -p $backuptarget'ComposerGlobal/'
 cd $backuptarget'ComposerGlobal/'
 
 # Backup composer json and lock file.
