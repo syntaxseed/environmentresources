@@ -14,8 +14,11 @@ Created by @SyntaxSeed (Sherri W)
     * Global Git config file.
     * Linux System settings.
 
+## Nice Bash Prompt: ##
+
 ![Bash prompt with Git info](https://github.com/syntaxseed/environmentresources/blob/master/assets/images/prompt.png)
 
+See BashPrompts/README.md for details.
 
 ## Automatic Backup
 
