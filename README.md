@@ -13,6 +13,7 @@ Created by @SyntaxSeed (Sherri W)
     * Npm global config.
     * Global Git config file.
     * Linux System settings.
+* BashCustom/ directory is to be copied to home dir and linked into .bashrc.
 
 ## Nice Bash Prompts: ##
 

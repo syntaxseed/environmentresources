@@ -23,12 +23,5 @@ alias lalreset='composer dump-autoload; php artisan config:clear; php artisan ca
 alias lalup='printf "\n\e[1;33mVisit at: http://127.0.0.1:8080\e[0m\n\n" ; php artisan serve --port=8080 >/dev/null 2>&1'
 
 
-# ---- Editor/Environment/Tools -----
-
-# Function to run my backup environment scripts, then switch to the target backup repo so I can commit it.
-#    Optional: pass in the target directory for the backups as a parameter.
-backupenv() {
-    cd /home/sherriw/Development/Repos/Git/EnvironmentResources/BackupScripts/
-    sh backupenv.sh "$1"
-    cd /home/sherriw/Development/Repos/Git/EnvironmentBackup/
-}
+# ---- Git ----
+alias gstate='bash $HOME/BashCustom/Functions/gstate.sh'
