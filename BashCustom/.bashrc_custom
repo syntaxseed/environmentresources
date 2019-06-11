@@ -3,7 +3,7 @@
 # Set to 0 if this is a remote machine that I SSH into.
 IS_LOCAL_SHELL=1
 
-# Paths for Composer and PHP Stuff (Sherri)
+# Paths for Composer and PHP Stuff
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 # Paths for Android
@@ -13,7 +13,7 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 # Include custom functions
 . $HOME/BashCustom/Functions/master.sh
 
-# SHERRI W CUSTOM PROMPT (below):
+# CUSTOM PROMPT (below):
     GIT_PS1_SHOWDIRTYSTATE=1
     GIT_PS1_SHOWUNTRACKEDFILES=1
     GIT_PS1_SHOWUPSTREAM="auto"
@@ -25,18 +25,18 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
         PS1='\n\[\033[1;33m\]▶ \[\033[34m\]\u\[\033[34m\] @ \[\033[1;31m\]\h \[\033[36m\]\w\[\033[1;33m\]$(__git_ps1)$(hg_prompt)\n\[\033[1;33m\] \$ \[\033[0;39m\]'
         PS2='\[\033[1;33m\]▷ \[\033[0;39m\]'
     fi
-    # SHERRI W CUSTOM PROMPT (above lines). Original is replaced.
+    # CUSTOM PROMPT (above lines). Original is replaced.
 
 
-# (Sherri) Include additional alias file if it exists
+# Include additional alias file if it exists
 if [ -f $HOME/BashCustom/BashAliases/master.sh ]; then
     source $HOME/BashCustom/BashAliases/master.sh
 fi
 
-# (Sherri) Echo a random tip from the man pages.
+# Echo a random tip from the man pages.
 #echo "Random Tip:"; whatis $(ls /bin | shuf -n 1);
 
-# (Sherri) Hide mail check.
+# Hide mail check.
 unset MAILCHECK
 
 # A welcoming ASCII Art elephant or castle.

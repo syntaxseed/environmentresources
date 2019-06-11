@@ -9,7 +9,6 @@ This directory contains Sherri's Bash customizations.
 - Ensure that .bashrc includes (at the bottom) bash_custom/.bashrc_custom like so:
 
 ```
-# SHERRIW
 # include .bashrc_custom if it exists
 if [ -f $HOME/BashCustom/.bashrc_custom ]; then
     . $HOME/BashCustom/.bashrc_custom
