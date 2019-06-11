@@ -6,6 +6,7 @@ Created by @SyntaxSeed (Sherri W)
 
 * Nice Bash command prompts.
 * Handy Bash aliases.
+* BashCustom/ directory is to be copied to home dir and linked into .bashrc.
 * Bash Scripts to backup:
     * Global Composer json and lock files.
     * VSCode extensions list, snippets and settings/keymap files.
@@ -13,7 +14,6 @@ Created by @SyntaxSeed (Sherri W)
     * Npm global config.
     * Global Git config file.
     * Linux System settings.
-* BashCustom/ directory is to be copied to home dir and linked into .bashrc.
 
 ## Nice Bash Prompts: ##
 
