@@ -26,3 +26,4 @@ alias lalup='printf "\n\e[1;33mVisit at: http://127.0.0.1:8080\e[0m\n\n" ; php a
 # ---- Git ----
 alias gstate='bash $HOME/BashCustom/Functions/gstate.sh'
 alias gsummary='bash $HOME/BashCustom/Functions/git_summary.sh -l .'
+#alias gsummary='find . -maxdepth 1 -mindepth 1 -type d -exec sh -c \'(echo {} && cd {} && git -c color.status=always status 2> /dev/null && echo)\' \; | less -R'

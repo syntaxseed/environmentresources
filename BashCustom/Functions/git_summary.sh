@@ -2,6 +2,8 @@
 
 # git-summary - summarize git repos at some path
 #
+# Alternative: find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd {} && git -c color.status=always status 2> /dev/null && echo)' \; | less -R
+#
 # Forked from https://github.com/lordadamson/git-summary
 #
 # Freely distributed under the MIT license. 2018@MirkoLedda
