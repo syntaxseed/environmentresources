@@ -31,6 +31,7 @@ _trueline_mercurial_segment() {
 
 declare -a TRUELINE_SEGMENTS=(
     'user,green,special_grey'
+    'bg_jobs,red,black'
     'working_dir,light_blue,cursor_grey'
     'git,yellow,special_grey'
     'mercurial,yellow,special_grey'

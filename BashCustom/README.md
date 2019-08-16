@@ -19,6 +19,8 @@ fi
 
 To use the Trueline prompt set the config var at the top of .bash_custom. You must use a Nerd Font like the included Fira Mono which includes all the symbols. (Put it in ~/.fonts/ directory on Ubuntu.)
 
+- https://github.com/petobens/trueline
+
 
 ## Contains
 
