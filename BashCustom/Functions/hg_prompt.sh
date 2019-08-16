@@ -14,5 +14,5 @@ hg_prompt() {
   local add=$(echo "$commit" | sed -n '/.*added.*/    s//+/p')
   local del=$(echo "$commit" | sed -n '/.*removed.*/  s//-/p')
 
-  echo " (Hg:$branch$add$del$mod$unk)"
+  echo " Hg:$branch$add$del$mod$unk"
 }
