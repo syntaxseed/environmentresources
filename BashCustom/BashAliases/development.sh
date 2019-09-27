@@ -14,6 +14,9 @@ alias phphome='printf "\n\e[1;33mVisit at: http://localhost:8000\e[0m\n\n" ; cd 
 alias phpup='printf "\n\e[1;33mVisit at: http://localhost:8000\e[0m\n\n" ; php -S localhost:8000 >/dev/null 2>&1'
 # Run PHPLOC and PHPCPD and save output to a file.
 alias phpanalysis='{ printf "***** PHPLOC AND PHPCPD ANALYSIS *****\n\n" ; phploc . ; printf "\n----------------------------------\n\n" ; phpcpd . ; } > phpanalysis.txt ; printf "\n \e[1;32m>>> PPHLOC and PHPCPD output saved to phpanalysis.txt\n"'
+# Run phpunit from vendor directory.
+alias vphpunit='vendor/bin/phpunit'
+
 
 # ---- Laravel -----
 
