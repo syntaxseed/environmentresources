@@ -14,4 +14,4 @@ done
 
 
 # Use the Goto Utility (https://github.com/iridakos/goto):
-source ../goto/goto.sh
+source $path/../goto/goto.sh
