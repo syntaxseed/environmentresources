@@ -11,3 +11,7 @@ do
         #echo "Aliases Loaded: $file"
     fi
 done
+
+
+# Use the Goto Utility (https://github.com/iridakos/goto):
+source ../goto/goto.sh

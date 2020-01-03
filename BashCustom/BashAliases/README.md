@@ -1,6 +1,6 @@
 # Bash Aliases
 
-Handy aliases for bash terminal. 
+Handy aliases for bash terminal.
 
 Include into ~/.bashrc like so:
 
@@ -11,4 +11,4 @@ if [ -f ~/Path/To/BashAliases/master.sh ]; then
 fi
 ```
 
-The master file loads all the others (update master if another file of aliases is added).
+The master file loads all the others (update master if another file of aliases is added). It also includes the goto utility (https://github.com/iridakos/goto) for creating directory shortcuts.
