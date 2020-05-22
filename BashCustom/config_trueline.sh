@@ -30,6 +30,10 @@ _trueline_mercurial_segment() {
     fi
 }
 
+_trueline_newlineblank_segment(){
+    PS1+="\n"
+}
+
 _trueline_gitcustom_segment() {
 
     local branch_icon="$(_trueline_git_remote_icon)"
@@ -52,6 +56,7 @@ _trueline_gitcustom_segment() {
 }
 
 declare -a TRUELINE_SEGMENTS=(
+    'newlineblank'
     'user,green,special_grey'
     'bg_jobs,red,black'
     'working_dir,light_blue,cursor_grey'
