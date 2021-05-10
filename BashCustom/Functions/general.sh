@@ -6,12 +6,12 @@
 #    Optional: pass in the target directory for the backups as a parameter.
 if [ "$IS_LOCAL_SHELL" == "1" ]; then
     backupenv() {
-        if [ -d $HOME/Development/Repos/Git/EnvironmentResources/BackupScripts/ ]; then
-            cd $HOME/Development/Repos/Git/EnvironmentResources/BackupScripts/
+        if [ -d $HOME/Development/Repos/Git/AvinusInternal/DevOps/EnvironmentResources/BackupScripts/ ]; then
+            cd $HOME/Development/Repos/Git/AvinusInternal/DevOps/EnvironmentResources/BackupScripts/
             sh backupenv.sh "$1"
             cd $HOME/Development/Repos/Git/EnvironmentBackup/
         else
-            echo "ERROR - Directory /Development/Repos/Git/EnvironmentResources/BackupScripts/ not found."
+            echo "ERROR - Directory /Development/Repos/Git/AvinusInternal/DevOps/EnvironmentResources/BackupScripts/ not found."
         fi
     }
 fi
