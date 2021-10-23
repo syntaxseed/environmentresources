@@ -4,11 +4,12 @@
 IS_LOCAL_SHELL=1
 
 # Whether to use the Trueline prompt style. Requires included font.
-if [ "$TERM_PROGRAM" == "vscode" ]; then
-    USE_TRUELINE_PROMPT=0
-else
-    USE_TRUELINE_PROMPT=1
-fi
+USE_TRUELINE_PROMPT=1
+
+# Special cases where we don't use Trueline.
+#if [ "$TERM_PROGRAM" == "vscode" ]; then
+#    USE_TRUELINE_PROMPT=0
+#fi
 
 # Paths for Composer and PHP Stuff
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
