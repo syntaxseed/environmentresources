@@ -2,6 +2,8 @@
 
 alias la='ls -A'
 
+alias goplex='sudo service plexmediaserver restart'
+
 # ----- Learning -----
 
 # Ascii cow teaches a random bash command

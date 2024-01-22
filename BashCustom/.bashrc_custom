@@ -58,6 +58,10 @@ unset MAILCHECK
 # Enable symfony console tab auto-completion
 #source $HOME/BashCustom/symfony-console-autocompletion.sh
 
+# Enable GPG agent for keys (signed Git commits).
+export GPG_TTY=$(tty)
+gpgconf --launch gpg-agent
+
 # A welcoming ASCII Art elephant or castle.
 if [ "$IS_LOCAL_SHELL" == "1" ]; then
     cat << 'EOF'
