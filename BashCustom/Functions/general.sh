@@ -9,7 +9,7 @@ if [ "$IS_LOCAL_SHELL" == "1" ]; then
         if [ -d $HOME/Development/Git/AvinusInternal/DevOps/EnvironmentResources/BackupScripts/ ]; then
             cd $HOME/Development/Git/AvinusInternal/DevOps/EnvironmentResources/BackupScripts/
             sh backupenv.sh "$1"
-            cd $HOME/Development/Git/EnvironmentBackup/
+            cd $HOME/Development/Git/AvinusInternal/DevOps/EnvironmentBackup/
         else
             echo "ERROR - Directory /Development/Git/AvinusInternal/DevOps/EnvironmentResources/BackupScripts/ not found."
         fi
