@@ -4,7 +4,9 @@
 mkdir -p $backuptarget'Thunderbird/'
 cd $backuptarget'Thunderbird/'
 
-
 # Backup Thunderbird settings.
-cp -ar ~/.thunderbird/trsl5s91.default-release profile-default-release/
-echo "Thunderbird: Backed up profile directory."
+cp ~/.thunderbird/trsl5s91.default-release/prefs.js prefs.js # Preferences and account settings.
+cp ~/.thunderbird/trsl5s91.default-release/prefs.js abook.sqlite # Address book.
+
+
+echo "\nThunderbird: Backed up profile directory."
